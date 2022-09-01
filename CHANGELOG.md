@@ -7,6 +7,7 @@
 - Fix geth trace types for debug_traceTransaction rpc
 - Fix RLP decoding of legacy `Transaction`
 - Fix RLP encoding of `TransactionReceipt` [#1661](https://github.com/gakonst/ethers-rs/pull/1661)
+- Stop defaulting to the `"latest"` block in `eth_estimateGas` params [#1657](https://github.com/gakonst/ethers-rs/pull/1657)
 - Add `Unit8` helper type [#1639](https://github.com/gakonst/ethers-rs/pull/1639)
 - Add `evm.deployedBytecode.immutableReferences` output selector [#1523](https://github.com/gakonst/ethers-rs/pull/1523)
 - Added `get_erc1155_token_transfer_events` function for etherscan client [#1503](https://github.com/gakonst/ethers-rs/pull/1503)
